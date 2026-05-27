@@ -51,7 +51,7 @@ label {
     color: grey;
     font-size: small;
 }
-.agreeing:hover, .password-forgot:hover {
+a:hover, .password-forgot:hover {
     color: rgb(68, 68, 68);
 }
 .password-forgot {
