@@ -16,18 +16,18 @@ export function FormComponent(props) {
           <div className="form-settings">
             <label>Електронна пошта або мобільний телефон</label>
             <input></input>
-            <p>
+            <p className="agreeing">
               By entering your mobile number and one-time code sign-in option,
               you agree to receive a one-time verification code via SMS from IKEA.
               Message and data rates may apply.
             </p>
-            <a href="/">More info about Privacy Policy</a>
+            <a href="/" className="agreeing">More info about Privacy Policy</a>
         </div>
 
         <div className="form-settings">
           <label>Пароль</label>
           <input></input>
-          <p>Забули свій пароль?</p>
+          <p className="password-forgot">Забули свій пароль?</p>
         </div>
 
         <div className="save-info">
@@ -35,7 +35,7 @@ export function FormComponent(props) {
           <label>Зберегти інформацію</label>
         </div>
 
-        <button>ПРОДОВЖИТИ</button>
+        <button className="continue">ПРОДОВЖИТИ</button>
 
         <div className="create-account">
           <p>У вас ще немає облікового запису? Створіть його:</p>

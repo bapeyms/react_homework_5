@@ -9,25 +9,102 @@ label {
     margin-bottom: 7px;
 }
 .left-part {
-    border: 1px solid red;
     flex: 1;
+
+    background-image: url('/public/cat.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    text-align: center;
 }
+.left-part h2 {
+    margin-top: 120px;
+    color: rgb(49, 49, 49);
+}
+
 .right-part {
-    border: 1px solid blue;
     flex: 3;
 }
 .right-part form {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .form-settings {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     height: auto;
-    border: 1px solid pink;
     margin-bottom: 37px;
+}
+.form-settings input {
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding-left: 5px;
+}
+.agreeing {
+    color: grey;
+    font-size: small;
+}
+.agreeing:hover, .password-forgot:hover {
+    color: rgb(68, 68, 68);
+}
+.password-forgot {
+    color: grey;
+    text-decoration: underline;
+    font-size: small;
+}
+
+.save-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.save-info input {
+    transform: scale(1.2);
+}
+.save-info input:hover {
+    background-color: whitesmoke;
+}
+.save-info label{
+    font-size: small;
+    color: grey;
+    margin: 0;
+}
+
+.continue {
+    width: 80%;
+    height: 35px;
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.continue:hover {
+    background-color: rgb(67, 67, 67);
+}
+
+.create-account p{
+    font-size: small;
+    font-weight: 500;
+    color: grey;
+}
+.create-account button {
+    width: 80%;
+    height: 35px;
+    border: 2.5px solid rgb(39, 39, 39);
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.create-account button:hover {
+    background-color: whitesmoke;
 }
