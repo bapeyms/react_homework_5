@@ -1,0 +1,23 @@
+.FormComponent {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.left-part {
+    border: 1px solid red;
+    flex: 1;
+}
+.right-part {
+    border: 1px solid blue;
+    flex: 3;
+}
+
+.form-settings {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
+    border: 1px solid pink;
+    margin-bottom: 37px;
+}
