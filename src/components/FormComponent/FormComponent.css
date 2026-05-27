@@ -108,3 +108,10 @@ a:hover, .password-forgot:hover {
 .create-account button:hover {
     background-color: whitesmoke;
 }
+
+.valid {
+    border: 2px solid greenyellow;
+}
+.invalid {
+    border: 2px solid red;
+}
